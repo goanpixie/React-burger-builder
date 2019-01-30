@@ -36,6 +36,7 @@ const buildControls = (props) => ( <
 			deducted = {
 				() => props.ingredientDeducted(ctrl.type)
 			}
+			disabled={props.disabled[ctrl.type]}
 			/>
 		))
 	} <
