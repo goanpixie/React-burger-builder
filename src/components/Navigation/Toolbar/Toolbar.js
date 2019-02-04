@@ -8,10 +8,8 @@ const toolbar = (props) => (
 		<div>MENU</div>
 		<Logo/>
 		<nav>
-			<a>a</a>
-			<a>b</a>
-			<a>c</a>
-			<a>d</a>
+			<a href="#">a</a>
+
 		</nav>
 	</header>
 );
