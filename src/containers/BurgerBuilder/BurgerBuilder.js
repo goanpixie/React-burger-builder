@@ -75,8 +75,8 @@ class BurgerBuilder extends Component {
 		this.setState({ purchasing: false });
 	}
 
+	//axios to make post request
 	purchaseContinueHandler = () => {
-		// alert("You continue:)");
 		const order = {
 			ingredients: this.state.ingredients,
 			price: this.state.totalPrice.toFixed(2),
