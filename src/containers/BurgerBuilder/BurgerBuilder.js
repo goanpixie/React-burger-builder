@@ -96,7 +96,7 @@ class BurgerBuilder extends Component {
 		.catch (error=> console.log(error));
 	}
 
-
+//display
 	render() {
 		const disabledInfo = {
 			...this.state.ingredients
